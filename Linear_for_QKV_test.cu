@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cublas_v2.h>
-#define M 2
-#define K 10
-#define N 10
+#define M 1
+#define K 4096
+#define N 4096
 //seq hidden_dim hidden_dim
 //MxK(input_tensor) KxN(weight) MxN(output_tensor) 
 
